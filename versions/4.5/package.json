@@ -1,5 +1,5 @@
 {
-  "name": "typescript-playground",
+  "name": "@typescript-playground/4.5",
   "version": "1.0.0",
   "description": "TypeScript 検証用リポジトリ",
   "keywords": [
@@ -11,17 +11,12 @@
   },
   "license": "ISC",
   "author": "tetty0217 <dev.tetty@gmail.com>",
-  "main": "",
+  "main": "1.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tetty0217/typescript-playground.git"
   },
-  "private": true,
-  "nohoist": [
-    "versions/4.5",
-    "versions/4.6-beta"
-  ],
-  "workspaces": [
-    "versions/*"
-  ]
+  "devDependencies": {
+    "typescript": "4.5"
+  }
 }
