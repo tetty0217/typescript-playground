@@ -1,19 +1,31 @@
 {
   "name": "typescript-playground",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "TypeScript 検証用リポジトリ",
+  "keywords": [
+    "TypeScript"
+  ],
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/tetty0217/typescript-playground#readme",
+  "bugs": {
+    "url": "https://github.com/tetty0217/typescript-playground/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tetty0217/typescript-playground.git"
   },
-  "author": "",
+  "author": "tetty0217 <dev.tetty@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tetty0217/typescript-playground/issues"
+  "scripts": {
+    "build": "node index.js"
   },
-  "homepage": "https://github.com/tetty0217/typescript-playground#readme"
+  "devDependencies": {
+    "fs-extra": "^10.0.0",
+    "path": "^0.12.7"
+  },
+  "workspaces": [
+    "versions/*"
+  ],
+  "packageManager": "yarn@3.1.1"
 }

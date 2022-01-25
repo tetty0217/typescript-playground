@@ -1,0 +1,19 @@
+{
+  "name": "@typescript-playground/VERSION",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TypeScript 検証用リポジトリ",
+  "license": "ISC",
+  "author": "tetty0217 <dev.tetty@gmail.com>",
+  "main": "1.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetty0217/typescript-playground.git"
+  },
+  "scripts": {
+    "install": "yarn"
+  },
+  "devDependencies": {
+    "typescript": "VERSION"
+  }
+}
