@@ -4,7 +4,7 @@
 |-----------|---------------------------------------------------------------------|
 | 4.6-beta  | https://github.com/tetty0217/typescript-playground/tree/v4.6-beta   |
 
-## Instration
+## installation
 
 ```sh
 $ yarn
