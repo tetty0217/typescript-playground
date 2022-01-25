@@ -1,5 +1,7 @@
 # typescript-playground v4.6-beta
 
+https://devblogs.microsoft.com/typescript/announcing-typescript-4-6-beta/
+
 ## スケジュール
 
 ### イテレーションプラン
